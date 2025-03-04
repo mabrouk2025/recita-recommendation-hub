@@ -23,7 +23,7 @@ const Header = ({ className }: HeaderProps) => {
     <header
       className={cn(
         'fixed top-0 left-0 right-0 z-40 px-4 py-4 transition-all duration-300',
-        isScrolled ? 'glass shadow-sm backdrop-blur-lg py-3' : 'bg-transparent',
+        isScrolled ? 'bg-black/90 shadow-md backdrop-blur-lg py-3' : 'bg-transparent',
         className
       )}
     >
