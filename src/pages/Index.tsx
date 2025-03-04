@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 import RecitationCard from '@/components/ui-custom/RecitationCard';
 import CategoryCard from '@/components/ui-custom/CategoryCard';
 import SectionTitle from '@/components/ui-custom/SectionTitle';
@@ -88,7 +89,7 @@ const HomeScreen = () => {
   ];
   
   return (
-    <div className="min-h-screen pb-20">
+    <div className="min-h-screen pb-28">
       <Header />
       
       <main className="container mx-auto px-4 max-w-7xl pt-20">
@@ -185,6 +186,8 @@ const HomeScreen = () => {
         title="سورة البقرة"
         subtitle="ناصر القطامي"
       />
+      
+      <Footer />
     </div>
   );
 };

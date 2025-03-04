@@ -28,12 +28,17 @@ const Header = ({ className }: HeaderProps) => {
       )}
     >
       <div className="container mx-auto flex justify-between items-center max-w-7xl">
-        <div className="flex items-center">
+        <div className="flex items-center gap-2">
+          <img 
+            src="/lovable-uploads/b7727aff-cf2c-45e7-a6bc-e2e6cafe493f.png" 
+            alt="الصوت الندي" 
+            className="h-9 w-auto"
+          />
           <h1 className={cn(
-            "font-bold transition-all duration-300 text-balance arabic-text",
+            "font-bold transition-all duration-300 text-balance arabic-text text-primary",
             isScrolled ? "text-lg" : "text-xl"
           )}>
-            ريسيتا
+            الصوت الندي
           </h1>
         </div>
         
